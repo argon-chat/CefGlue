@@ -27,8 +27,8 @@ namespace Xilium.CefGlue.Common
                 }
                 if (CefRuntimeLoader.IsOSREnabled)
                 {
-                    commandLine.AppendSwitch("disable-gpu", "1");
-                    commandLine.AppendSwitch("disable-gpu-compositing", "1");
+                    //commandLine.AppendSwitch("disable-gpu", "1");
+                    //commandLine.AppendSwitch("disable-gpu-compositing", "1");
                     commandLine.AppendSwitch("enable-begin-frame-scheduling", "1");
                     commandLine.AppendSwitch("disable-smooth-scrolling", "1");
                 }
